@@ -1,0 +1,173 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav{
+  font-size: 18px;
+  background-color: #f8f9fa;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content:space-between;
+}
+  
+#ul1{
+  justify-content: space-around;
+}
+
+li{
+  padding: 4px;
+  margin-top: 8px;
+}
+
+#bb1,#bb2{
+  border: none;
+  background-color: transparent;
+}
+
+button{
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 25px;
+}
+
+#b1{
+  color: #F19537;
+  background-color: transparent;
+}
+#b2{
+  color: white;
+  background-color:#F19537 ;
+}
+
+#d1{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg") no-repeat center/cover ;
+  text-align: center;
+  width: 100%;
+  height: 70vh;
+  color: white;
+  position:relative;
+  top: 0px;
+  margin-bottom: 100px;
+}
+
+
+#d1data{
+  
+  position:relative;
+  top: 100px;
+}
+
+
+#ip1{
+  margin-top: 30px;
+  width: 55rem;
+}
+
+input{
+  font-size: medium;
+  padding: 25px;
+  width: 35rem;
+  height: 16px;
+  border: none;
+  border-radius: 8px;
+}
+h1{
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  padding-top: 40px;
+}
+p{
+  font-size: 24px;
+  font-weight: 10px;
+  padding-top: 30px;
+}
+
+.d2c{
+  position: relative;
+  height: 400px;
+  width: 260px;
+  border-radius:8px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex column;
+  margin:0px 10px 20px;
+
+  /* border: solid; */
+}
+
+.tex{
+  color: white;
+  /* border:solid; */
+  position: relative;
+  bottom: 80px;
+  text-align: center;
+  margin-left:auto;
+ 
+ }
+ .tex1{
+   font-size: 20px;
+   /* margin:0px 0px 0px; */
+   
+ }
+ .tex2{
+   padding:10px;
+   font-size: 16px;
+   /* margin:0px 0px 3px; */
+   
+ }
+
+
+ #d2{
+  width: 100%;
+  /* height: 80vh; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+  
+  
+.pics{
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.2s;
+}
+#err{
+  width: 100%;
+  height: 70vh;
+  /* border: #F19537 solid; */
+}
+footer{
+  position: relative;
+  padding: 16px;
+  color: #999;
+  background-color: #f1f1f1;
+}
+  
+#d3{
+  margin-left: 6rem;
+}   
+.pics:hover{
+  transform: scale(1.1);
+  filter: brightness(50%);
+}
+
+/* Login Page */
+#log{
+  font-size: 16px;
+  padding: 48px;
+}

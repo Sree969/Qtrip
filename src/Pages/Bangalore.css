@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#bmain{
+    display:flex column;
+    align-items: center;
+  }
+#bng1{
+    height:60vh;
+    padding:100px 75px;
+    margin-bottom: 40px;
+}
+#bng1 h1{
+    margin:0px 0px 8px;
+    font-size: 40px;
+    color:#212529;
+}
+#bng1 p{
+    margin:0px 0px 8px;
+    font-size: 24px;
+    color:#212529;
+}
+#bng11{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: solid #999999 1px;
+    border-bottom: solid #999999 1px;
+    padding:20px 0px;
+}
+#bng111,#bng112,#bng113{
+    display:flex;
+    align-items: center;
+    border-left:solid  #999999 1px;
+    border-right: solid  #999999 1px;
+    padding:0px 2px
+}
+input{
+    width: 200px;
+}
+.tab{
+    padding: 6px 0px;
+    margin-right:5px;
+}
+#bng2{
+    /* margin-top:25px; */
+    padding:10px 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+  .bngcard{
+    height: 345px;
+    width: 250px;
+    border: solid 1px #99999993 ;
+    position: relative;
+    margin: 0px 15px 20px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    /* border: solid; */
+  }
+  .bngcard img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    
+  }
+  .bngcard img:hover{
+    transform: scale(1.1);
+    filter:brightness(50%);
+  }
+  .p1{
+    width: 120px;
+    color: #fff;
+    background-color: darkorange;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    font-size: 1rem;
+    font-weight: bolder;
+    right: -15px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: solid;
+  }
+  .h5{
+    font-size: 1.4rem;
+    position: absolute;
+    font-size: 20px;
+    bottom: 40px;
+    padding:10px
+  }
+  .p2{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    padding:10px
+  }
+  .h55{
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+    padding:10px
+  }
+  .p3{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    padding:10px
+  }
+
+
+
+
+  
+#nia{
+  width: 736px;
+  height: 1200px;
+  color: #212529;
+  margin: 40px 60px 10px;
+  padding: 16px;
+  border: 1px solid #eee;
+}
+#car{
+  width: 500px;
+  height: 500px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+#car img{
+  width: 500px;
+  height: 500px;
+}
+#niacont{
+  width: 702px;
+  height: 528px;
+  color: #212529;
+  font: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+#niah{
+  color: #212529;
+}
+#h44{
+  font-size: 20px;
+  font-weight: 2px;
+  margin: 0px 0px 16px;
+  color: #999999;
+}
+#abt{
+  color: #212529;
+  font-size: 20px;
+  margin: 10px 0px 0px;
+}

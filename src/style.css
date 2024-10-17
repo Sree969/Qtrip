@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.dlog{
+  padding: 10px;
+  width: 100%;
+  height: 70vh;
+  position:relative;
+  top: 0px;
+  margin-bottom: 80px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg") no-repeat center/cover ;
+}
+#log{
+  /* border:solid red; */
+  width:465px;
+  height:309px;
+  /* margin-top: 120px; */
+  /* color:#fff; */
+  margin:60px auto;
+  padding:55px;
+  border-radius: .3rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  background-color: #fff;
+  display: flex column;
+  /* text-align: center; */
+}
+#log input{
+  width:100%;
+  padding:16px 12px;
+  margin:0px 0px 15px;
+}
+#log button,#reg button{
+  background-color: #f19537;
+  padding:10px 12px;
+  font-size: 16px;
+  border:none;
+  color:#fff;
+  width:100%;
+  text-align: center;
+  border-radius: .3rem;
+  margin:0px 0px 10px;
+
+}
+#log p{
+  font-size: 16px;
+  color:rgba(0, 0, 0, 0.6);
+}
+#log span{
+  color:#f19537;
+  cursor: pointer;
+
+}
+#log h2{
+  color:#f19537;
+  font-size: 27px;
+  margin:0px 0px 20px;
+
+}
+/* Registration Page */
+#reg{
+  width:465px;
+  height:350px;
+  margin:60px auto;
+  padding:48px;
+  background-color: #fff;
+  border-radius: .3rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  display: flex column;
+  
+
+}
+#reg input{
+  width:100%;
+  padding:16px 12px;
+  margin:0px 0px 15px;
+}
+#reg p{
+  color:rgba(0, 0, 0, 0.6);;
+  font-size: 12px;
+  margin:0px 0px 10px;
+  padding:0px 20px 0px 0px;
+}
